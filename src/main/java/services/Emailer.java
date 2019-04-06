@@ -49,7 +49,6 @@ public class Emailer {
 
     private JsonObject authEmailer() {
 
-        //parse JSON response and return 'success' value
         JsonReader jsonReader = Json.createReader(getClass().getResourceAsStream("/authEmailer.json"));
         JsonObject jsonObject = jsonReader.readObject();
         jsonReader.close();
