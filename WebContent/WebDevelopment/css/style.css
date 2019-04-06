@@ -1,0 +1,17 @@
+
+
+body {
+	background-color: #202020;
+}
+
+#divMain {
+	margin-top: 15%;
+}
+
+#formButton {
+	margin-left: 65px;
+}
+
+#formActiveUserButton {
+	margin-left: 90px;
+}
